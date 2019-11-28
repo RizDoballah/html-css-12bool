@@ -1,11 +1,4 @@
 
-.debug .container {
-  background-color: #FFC0CB;
-}
-.debug [class*="col-"] {
-  border: 1px solid black;
-  height: 100px;
-}
 * {
   box-sizing: border-box;
   margin: 0;

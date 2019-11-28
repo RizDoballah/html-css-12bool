@@ -1,0 +1,16 @@
+.container {
+  background-color: #FFC0CB;
+}
+.container [class*="col-"] {
+  border: 1px solid black;
+  line-height: 120px;
+  vertical-align: middle;
+  text-align: center;
+}
+.container .nested [class*="col-"]{
+  border: 1px solid white;
+}
+.container .nested {
+  background-color: #F07F80;
+  margin: 3px;
+}
